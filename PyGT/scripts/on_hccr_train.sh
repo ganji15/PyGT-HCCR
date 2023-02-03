@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1  OMP_NUM_THREADS=1  torchrun --nnodes=1:1 --nproc_per_node=2 --rdzv_id=1000 --rdzv_endpoint=localhost:29400 dist_train.py --net-id pgt_l --epochs 10 --dataset on_hccr --workers 4  --batch-size 256  --save-iter 2500 --first-decay 0.7 --last-decay 0.9 --lr 0.002 --in-features 7  --online 1

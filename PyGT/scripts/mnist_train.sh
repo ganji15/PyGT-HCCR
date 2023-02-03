@@ -1,0 +1,1 @@
+python train.py --net-id lenet --epochs 40 --dataset mnist --workers 4  --batch-size 128  --lr 0.001  --in-features 3  --gpu-id 0
