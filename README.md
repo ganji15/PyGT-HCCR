@@ -3,7 +3,7 @@
 
 ## Introduction
 This is a PyTorch implementation of the paper **"Characters as graphs: Interpretable handwritten Chinese character
-recognition via Pyramid Graph Transformer"** (authored by **Ji Gan, Yuyan Chen, Bo Hu, Jiaxu Leng∗, Weiqiang Wang, Xinbo Gao*.** )
+recognition via Pyramid Graph Transformer"** (authored by **Ji Gan, Yuyan Chen, Bo Hu, Jiaxu Leng∗, Weiqiang Wang, and Xinbo Gao*.** )
 
 PyGT (Pyramid Graph Transformer) proposes to represent handwritten characters as skeleton graphs and furhter processes the graph-structured characters by integrating the advantages of Transformers and graph convolutional networks.
 
@@ -26,7 +26,7 @@ To use the code, download the repository and change into it:
 `cd PyGT`
 
 For online & offline handwritten Chinese character recognition (HCCR), You need to applicant the HCCR dataset from <http://www.nlpr.ia.ac.cn/databases/handwriting/download.html> and then extract the handwriting samples. 
-For convenience, here we provide the processed graph data for HCCR including [on_hccr.zip](https://drive.google.com/file/d/1_9t2Uim0O0UunXuc1G3hpS4BT9QsEp-G/view?usp=share_link), [off_hcc.zip](https://drive.google.com/file/d/1ybsfqIU6x-9jHFbhlzWCgVGwHeKNYzxR/view?usp=share_link), and [gen_off_hcc.zip](https://drive.google.com/file/d/1KbOJkAt2nUrJbQQsW5T66bu1LcE47rei/view?usp=sharing), which should be extracted and put the extracted folder into the **./data/** directory.
+For convenience, here we provide the processed graph data for HCCR including [on_hccr.zip](https://drive.google.com/file/d/1_9t2Uim0O0UunXuc1G3hpS4BT9QsEp-G/view?usp=share_link), [off_hccr.zip](https://drive.google.com/file/d/1ybsfqIU6x-9jHFbhlzWCgVGwHeKNYzxR/view?usp=share_link), and [gen_off_hccr.zip](https://drive.google.com/file/d/1KbOJkAt2nUrJbQQsW5T66bu1LcE47rei/view?usp=sharing), which should be extracted and put the extracted folder into the **./data/** directory.
 
 
 ## Training
