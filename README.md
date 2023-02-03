@@ -68,4 +68,4 @@ author = {Ji Gan and Yuyan Chen and Bo Hu and Jiaxu Leng and Weiqiang Wang and X
 ```
 
 ## License
-HiGAN+ is free for academic research purposes.
+PyGT is free for academic research purposes.
