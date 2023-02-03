@@ -30,7 +30,7 @@ For convenience, here we provide the processed data files [on_hccr.zip](https://
 
 
 ## Training
-### Training PyGT on the MNIST dataset with Single-GPU
+### Training PyGT on MNIST with Single-GPU
 `sh ./scripts/mnist_train.sh`
 
 or
