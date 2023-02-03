@@ -5,5 +5,4 @@ from datasets.mnist import GridMNIST, MNISTSuperpixels, MnistSkeletons
 AllDatasets = {'on_hccr': OnlineCharDataset,
                'off_hccr': OfflineCharDataset,
                'gen_off_hccr': GenOfflineCharDataset,
-               'offimg': OfflineImageDataset,
                'mnist' : MnistSkeletons}
