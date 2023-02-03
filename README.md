@@ -32,7 +32,9 @@ For convenience, here we provide the processed data files [on_hccr.zip](https://
 ## Training
 ### Training PyGT on the MNIST dataset with Single-GPU
 `sh ./scripts/mnist_train.sh`
+
 or
+
 `python train.py --net-id lenet --epochs 40 --dataset mnist --workers 4  --batch-size 128  --lr 0.001  --in-features 3  --gpu-id 0`
 
 ### Training PyGT on Online HCC dataset with Multi-GPUs
