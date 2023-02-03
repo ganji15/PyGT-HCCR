@@ -26,7 +26,7 @@ To use the code, download the repository and change into it:
 `cd PyGT`
 
 For online & offline handwritten Chinese character recognition (HCCR), You need to applicant the HCCR dataset from <http://www.nlpr.ia.ac.cn/databases/handwriting/download.html> and then extract the handwriting samples. 
-For convenience, here we provide the processed data files [on_hccr.zip](https://github.com/ganji15/PyGT/releases/download/dataset/xxx)  [off_hcc.zip](https://github.com/ganji15/PyGT/releases/download/dataset/xx), and [gen_off_hcc.zip](https://github.com/ganji15/PyGT/releases/download/dataset/xx.), which should be extracted and put the extracted folder into the **./data/** directory.
+For convenience, here we provide the processed graph data [on_hccr.zip](https://github.com/ganji15/PyGT/releases/download/dataset/xxx)  [off_hcc.zip](https://github.com/ganji15/PyGT/releases/download/dataset/xx), and [gen_off_hcc.zip](https://github.com/ganji15/PyGT/releases/download/dataset/xx.), which should be extracted and put the extracted folder into the **./data/** directory.
 
 
 ## Training
